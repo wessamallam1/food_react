@@ -25,12 +25,30 @@
         }
     }
 }
-@media (max-width:700px) {
+
+@media (max-width:400px) {
+    .Delivers{
+        display: inline-block;
+        div{
+            width: 44vw;
+            margin-left: 6rem;
+            
+            img{
+                width: 12vw;
+                height: 12vw;
+                margin-left: 3rem;
+            }
+        }
+    }
+    
+    
+}
+@media (min-width:400px)and (max-width:700px){
     .Delivers{
         display: inline-block;
         div{
             width: 40vw;
-            margin-left: 10rem;
+            margin-left: 7rem;
             img{
                 width: 12vw;
                 height: 12vw;
@@ -38,8 +56,7 @@
             }
         }
     }
-    
-    
+
 }
 @media (min-width:700px)and (max-width:900px) {
     .Delivers{

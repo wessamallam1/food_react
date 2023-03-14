@@ -49,7 +49,8 @@
         }
     }
 }
-@media(max-width:600px) {
+
+@media(max-width:400px) {
     .Pizza{
         margin-top: 8rem;
         h1{
@@ -57,13 +58,49 @@
         }
         .hotpizza{
             display: inline-block;
-            margin-left: 8rem;
+            margin-left: 4rem;
 
            .details{
             margin-top: 4rem;
             // background-color: aqua;
-            width: 49vw;
-            height: 48vw;
+            width: 64vw;
+            height: 59vw;
+            img{
+                width: 16vw;
+                height: 14vw;
+                margin-left: 5rem;
+            }
+            h4{
+                font-size: 1rem;
+            }
+            div{
+                p{
+                    margin-left: 1rem;
+                }
+                button{
+                    margin-left: 2rem;
+                }
+            }
+           }
+
+        }
+    }
+}
+@media(min-width:400px) and (max-width:600px){
+    .Pizza{
+        margin-top: 8rem;
+        h1{
+            margin-top: 3rem;
+        }
+        .hotpizza{
+            display: inline-block;
+            margin-left: 5rem;
+
+           .details{
+            margin-top: 4rem;
+            // background-color: aqua;
+            width: 61vw;
+            height: 56vw;
             img{
                 width: 16vw;
                 height: 14vw;

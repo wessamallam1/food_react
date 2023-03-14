@@ -56,7 +56,40 @@
     color: rgb(155, 151, 151);
    }
 }
-@media (max-width:700px) {
+@media (max-width:400px) {
+    .Tfoods{
+        display: inline-block;
+        margin-left:15vw;
+        margin-top: 3rem;
+        div{
+            width: 60vw;
+            height: 20vw;
+            margin-top: 3rem;
+            &:hover{
+                margin-top: 0px;
+                margin-bottom: 0px;
+
+            }
+            h5,img{
+                margin-top: 1.5rem;
+
+            }
+            h5{
+                font-size: .9rem;
+            }
+        }
+
+       
+    }
+    .tackcare{
+        margin-left: 8rem;
+        h4,h2{
+           margin-left: -6rem;
+        }
+    }
+    
+}
+@media (min-width:400px)and (max-width:700px){
     .Tfoods{
         display: inline-block;
         margin-left:15vw;
@@ -76,8 +109,12 @@
     }
     .tackcare{
         margin-left: 8rem;
+        h4,h2{
+            margin-left: -6rem;
+         }
     }
     
+
 }
 @media (min-width:700px)and (max-width:900px) {
     .Tfoods{
@@ -94,6 +131,7 @@
     }
     .tackcare{
         margin-left: 14rem;
+       
     }
 
 }
