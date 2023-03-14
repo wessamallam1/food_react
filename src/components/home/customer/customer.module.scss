@@ -1,0 +1,57 @@
+ .customer{
+    display: flex;
+    margin-left: 5rem;
+    margin-top: 7rem;
+    .definnes{
+        width: 35vw;
+        h5{
+            color: orangered;
+        }
+        h2{
+            color: rgb(3, 3, 68);
+            font-weight: bolder;
+            span{
+                color: orangered;
+            }
+        }
+        p{
+            margin-top: 2rem;
+            color: rgb(166, 162, 162);
+            margin-bottom: 2rem;
+        }
+        h6{
+            font-weight: bolder;
+            color: rgb(116, 114, 114);
+            img{
+                width: 4vw;
+                height: 4vw;
+                border-radius: 5px;
+            }
+        }
+    }
+    .img{
+        img{
+            width: 35vw;
+            margin-left: 8rem;
+        }
+    }
+ }
+ @media(max-width:900px){
+    .customer{
+        display: inline-block;
+
+        .definnes{
+            width: 67vw;
+            margin-top: 29rem;
+        }
+        .img{
+
+            img{
+                margin-top: -64rem;
+                width: 70vw;
+                height: 60vw;
+                margin-left: 1rem;
+            }
+        }
+    }
+ }

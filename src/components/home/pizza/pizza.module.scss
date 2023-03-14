@@ -1,0 +1,199 @@
+.Pizza{
+    font-family:cursive;
+    h1{
+        text-align: center;
+       font-weight: bolder;
+    }
+    .hotpizza{
+        margin-bottom: 3rem;
+        display: flex;
+        justify-content: center;
+        justify-content: space-around;
+    //    display: grid;
+    //    grid-template-columns: 1fr 1fr 1fr 1fr;
+    //    grid-column: 2rem;
+        .details{
+            width: 22vw;
+            height: 22vw;
+            
+         box-shadow: 1px 1px 1px 1px rgb(225, 225, 225);
+          
+        
+            img{
+                width: 10vw;
+                height: 10vw;
+                margin-left: 6rem;
+                margin-top: 2rem;
+            }
+            h4{
+                text-align: center;
+                margin-top: 1.5rem;
+            }
+            div{
+                display: flex;
+                margin-top: 2rem;
+                p{
+                    color: orangered;
+                    margin-left: 3rem;
+                    font-weight: bolder;
+                }
+                button{
+                    margin-left: 6rem;
+                    border: none;
+                    background-color: orangered;
+                    color: white;
+                    padding: 5px 20px;
+                    border-radius: 7px;
+                }
+            }
+        }
+    }
+}
+@media(max-width:600px) {
+    .Pizza{
+        margin-top: 8rem;
+        h1{
+            margin-top: 3rem;
+        }
+        .hotpizza{
+            display: inline-block;
+            margin-left: 8rem;
+
+           .details{
+            margin-top: 4rem;
+            // background-color: aqua;
+            width: 49vw;
+            height: 48vw;
+            img{
+                width: 16vw;
+                height: 14vw;
+                margin-left: 5rem;
+            }
+            h4{
+                font-size: 1rem;
+            }
+            div{
+                p{
+                    margin-left: 1rem;
+                }
+                button{
+                    margin-left: 2rem;
+                }
+            }
+           }
+
+        }
+    }
+}
+@media(min-width:600px) and (max-width:800px){
+
+    .Pizza{
+        margin-top: 8rem;
+        h1{
+            margin-top: 3rem;
+        }
+        .hotpizza{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            margin-left: 3rem;
+
+           .details{
+            margin-top: 4rem;
+            // background-color: aqua;
+            width: 39vw;
+            height: 40vw;
+            img{
+                width: 16vw;
+                height: 14vw;
+                margin-left: 5rem;
+            }
+            h4{
+                font-size: 1rem;
+            }
+            div{
+                p{
+                    margin-left: 1rem;
+                }
+                button{
+                    margin-left: 2rem;
+                }
+            }
+           }
+
+        }
+    }
+}
+@media(min-width:800px) and (max-width:1020px){
+    .Pizza{
+        margin-top: 8rem;
+        h1{
+            margin-top: 3rem;
+        }
+        .hotpizza{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            margin-left: 3rem;
+
+           .details{
+            margin-top: 4rem;
+            // background-color: aqua;
+            width: 39vw;
+            height: 35vw;
+            img{
+                width: 16vw;
+                height: 14vw;
+                margin-left: 5rem;
+            }
+            h4{
+                font-size: 1rem;
+            }
+            div{
+                p{
+                    margin-left: 1rem;
+                }
+                button{
+                    margin-left: 8rem;
+                }
+            }
+           }
+
+        }
+    }
+}
+@media(min-width:1020px) and (max-width:1440px){
+    .Pizza{
+        margin-top: 8rem;
+        h1{
+            margin-top: 3rem;
+        }
+        .hotpizza{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            margin-left: 3rem;
+
+           .details{
+            margin-top: 4rem;
+            // background-color: aqua;
+            width: 22vw;
+            height: 28vw;
+            img{
+                width: 12vw;
+                height: 12vw;
+                margin-left: 3rem;
+            }
+            h4{
+                font-size: 1.1rem;
+            }
+            div{
+                p{
+                    margin-left: 1rem;
+                }
+                button{
+                    margin-left: 2.6rem;
+                }
+            }
+           }
+
+        }
+    }
+}

@@ -1,0 +1,32 @@
+
+.home{
+   
+    margin-right: 1rem;
+    color: rgb(211, 76, 38) !important;
+    
+}
+.Logo{
+    width: 45%;
+    height: 45%;
+    margin-left: 1rem;
+}
+.about{
+    margin-right: 1rem;
+    color: black;
+}
+.about:hover{
+    color: rgb(211, 76, 38) !important;
+
+}
+
+.eye{
+    margin-top: -19px;
+    margin-left: -4px;
+    color: rgb(211, 76, 38);
+}
+@media (min-width:1000px) {
+    .home{
+        margin-left: 110%;
+    }
+    
+}
