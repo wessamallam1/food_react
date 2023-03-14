@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/food_react/static/css/main.d8381115.css",
+    "main.js": "/food_react/static/js/main.79dc4efe.js",
+    "static/js/787.3adb45fa.chunk.js": "/food_react/static/js/787.3adb45fa.chunk.js",
+    "static/media/network.png": "/food_react/static/media/network.7deb539d0303413c1704.png",
+    "static/media/hero.png": "/food_react/static/media/hero.e3ef74be66b8a37b4de8.png",
+    "static/media/ava-1.jpg": "/food_react/static/media/ava-1.c185d7723fe40ec46830.jpg",
+    "static/media/location.png": "/food_react/static/media/location.c2a808618ecbf53c92bc.png",
+    "static/media/product_3.1.jpg": "/food_react/static/media/product_3.1.9c207cdf68c9700b11ce.jpg",
+    "static/media/product_2.2.jpg": "/food_react/static/media/product_2.2.4967c9cbe3fec366a31a.jpg",
+    "static/media/product_4.1.jpg": "/food_react/static/media/product_4.1.3c8ecc492220a3922731.jpg",
+    "static/media/product_3.2.jpg": "/food_react/static/media/product_3.2.ebcb16b50e4ef0060a5e.jpg",
+    "static/media/product_2.1.jpg": "/food_react/static/media/product_2.1.f15385546f60c8d0f0d9.jpg",
+    "static/media/product_09.jpg": "/food_react/static/media/product_09.d21d528bedb9088bf89f.jpg",
+    "static/media/product_01.jpg": "/food_react/static/media/product_01.6be97a612b580d595585.jpg",
+    "static/media/product_08.jpg": "/food_react/static/media/product_08.efc6c71968cf3ffe817a.jpg",
+    "static/media/bread(2).png": "/food_react/static/media/bread(2).dd485726262fc6f94474.png",
+    "static/media/res-logo.png": "/food_react/static/media/res-logo.2f9021c4ef5fe532038e.png",
+    "static/media/bread(3).png": "/food_react/static/media/bread(3).e4b9fdd91579778ae4cc.png",
+    "static/media/bread(1).png": "/food_react/static/media/bread(1).2fbb5c91c696e21efcb6.png",
+    "index.html": "/food_react/index.html",
+    "main.d8381115.css.map": "/food_react/static/css/main.d8381115.css.map",
+    "main.79dc4efe.js.map": "/food_react/static/js/main.79dc4efe.js.map",
+    "787.3adb45fa.chunk.js.map": "/food_react/static/js/787.3adb45fa.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d8381115.css",
+    "static/js/main.79dc4efe.js"
+  ]
+}
