@@ -31,7 +31,27 @@
         }
     }
 }
-@media(max-width:900px){
+@media(max-width:400px){
+    .Tasty{
+        display: inline-block;
+        .img{
+            img{
+                width: 55vw;
+                height: 50vw;
+                margin-left: -4rem;
+            }
+        }
+        .treat{
+            margin-left: -4rem;
+            width: 70vw;
+            .tastyfood{
+                width: 80vw;
+            }
+        }
+    }
+
+}
+@media(min-width:400px) and (max-width:900px){
     .Tasty{
         display: inline-block;
         .img{
@@ -45,6 +65,7 @@
             width: 70vw;
         }
     }
+
 
 }
 @media(min-width:900px) and (max-width:1300px){

@@ -16,7 +16,7 @@ function PillsExample() {
   return (
     <React.Fragment>
       <h1 className="mt-5 text-center main-heading ">Popular Foods</h1>
-      <Nav variant="pills" defaultActiveKey="/Menu" className={styles.menu}>
+      <Nav  defaultActiveKey="/Menu" className={styles.menu}>
         <Nav.Item className={styles.Item1}>
           <Nav.Link eventKey="link-1" onClick={() => setItems(Data)}>
             All

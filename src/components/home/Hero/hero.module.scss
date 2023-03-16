@@ -39,14 +39,15 @@
     .icons{
         display: flex;
         margin-top: 2.5rem;
+       
         .car{
             background-color: rgb(211, 76, 38);
             color: white;
             border-radius: 50%;
             width:max-content;
-            padding:  .1rem;
+            padding:  2px;
             
-           
+            font-size: 18px;
           
         }
         .check{
@@ -54,7 +55,9 @@
             color: white;
             border-radius: 50%;
             width:max-content;
-            padding:  .1rem;
+            padding:  2px;
+            
+            font-size: 18px;
             margin-left: 3rem;
         }
     }
@@ -64,15 +67,20 @@
         margin-top: -4rem;
     }
 }
-@media (max-width:400px) {
+@media (max-width:359px) {
     .hero{
-        margin-left: 2rem;
+        margin-left: 1rem;
         display: inline-block;
         .texthero{
             margin-top: 19rem;
             .icons{
+                
                 h6{
-                    font-size: .8rem;
+                    font-size: .6rem;
+                    .check{
+                        margin-left: 1.5rem;
+
+                    }
                 }
             }
         }
@@ -85,6 +93,26 @@
     }
     
     
+}
+@media (min-width:359px) and (max-width:400px){
+    .hero{
+        margin-left: 2rem;
+        display: inline-block;
+        .texthero{
+            margin-top: 19rem;
+            .icons{
+                h6{
+                    font-size: .7rem;
+                }
+            }
+        }
+        img{
+            margin-top: -77rem;
+            margin-left: 3rem;
+            width: 60vw;
+            height: 60vw;
+        }
+    }
 }
 @media (min-width:400px) and (max-width:700px) {
     .hero{

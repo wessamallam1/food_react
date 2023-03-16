@@ -36,7 +36,27 @@
         }
     }
  }
- @media(max-width:900px){
+ @media(max-width:400px){
+    .customer{
+        display: inline-block;
+        margin-left: 2rem;
+
+        .definnes{
+            width: 72vw;
+            margin-top: 29rem;
+        }
+        .img{
+
+            img{
+                margin-top: -67rem;
+                width: 70vw;
+                height: 60vw;
+                margin-left: -1rem;
+            }
+        }
+    }
+ }
+ @media(min-width:400px) and (max-width:900px){
     .customer{
         display: inline-block;
 
@@ -47,7 +67,7 @@
         .img{
 
             img{
-                margin-top: -64rem;
+                margin-top: -67rem;
                 width: 70vw;
                 height: 60vw;
                 margin-left: -1rem;
